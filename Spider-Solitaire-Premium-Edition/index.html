@@ -1,8 +1,8 @@
 <html>
     <head>
-        <title>ÔÚÏßÖ©ÖëÖ½ÅÆ</title>
+        <title>åœ¨çº¿èœ˜è››çº¸ç‰Œ</title>
         <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
-        <meta charset="gbk"> 
+        <meta charset="utf-8"> 
         <script type="application/x-javascript" src = "./js/draw.js"></script>
         <script type="application/x-javascript" src = "./js/jquery-3.3.1.min.js"></script>
         <script type="application/x-javascript" src = "./js/hideAd.js"></script>
@@ -55,7 +55,7 @@
                 $canvas = $(canvas);
                 $canvas.css('background-image', 'url("./img/background.png")');
                 $canvas.css('z-index', '-99');
-                canvas.innerText = '²»Ö§³Öcanvas±êÇ©';
+                canvas.innerText = 'ä¸æ”¯æŒcanvasæ ‡ç­¾';
                 
                 $canvas.css('width', '100%');
                 $canvas.css('height', '100%');
@@ -74,37 +74,37 @@
             <table style="width:260px;height:60px">
                 <tbody>
                 <tr>
-                    <td><input type="radio" name="diff" value="1" checked>1»¨É«</td>
-                    <td><input type="radio" name="diff" value="2">2»¨É«
+                    <td><input type="radio" name="diff" value="1" checked>1èŠ±è‰²</td>
+                    <td><input type="radio" name="diff" value="2">2èŠ±è‰²
                 </td>
                 </tr>
-                    <tr><td><input type="radio" name="diff" value="4">4»¨É«</td>
-                    <td><input type="radio" name="diff" value="8">8»¨É«</td>
+                    <tr><td><input type="radio" name="diff" value="4">4èŠ±è‰²</td>
+                    <td><input type="radio" name="diff" value="8">8èŠ±è‰²</td>
                 </tr>
                 </tbody>
             </table>
             </div>
             
             <div style="margin:10px 0 0 80px">
-            <button onclick="play.confirmDiff()">È·¶¨</button>
-            <button onclick="play.cancelDiff()">È¡Ïû</button>
+            <button onclick="play.confirmDiff()">ç¡®å®š</button>
+            <button onclick="play.cancelDiff()">å–æ¶ˆ</button>
             </div>
         </div>
         <div class = 'bot-block' onclick='play.AIHint()'>
-                <div style='margin:20px 0 0 45px'>ÌáÊ¾</div>
+                <div style='margin:20px 0 0 45px'>æç¤º</div>
         </div>
         
         <div id="success" hidden='hidden' class='mid-block'>
-                <center><strong>¹§Ï²Äã»ñµÃÊ¤Àû</strong>
-                <p id='time'>±¾´ÎÓÃÊ±¹²¼ÆÊ±·ÖÃë</p>
-                <p id='message'>×÷±×n´Î ³·Ïún´Î</p>
-                <button onclick="play.confirmDiff()">ÔÙÀ´Ò»¾Ö</button>
+                <center><strong>æ­å–œä½ è·å¾—èƒœåˆ©</strong>
+                <p id='time'>æœ¬æ¬¡ç”¨æ—¶å…±è®¡æ—¶åˆ†ç§’</p>
+                <p id='message'>ä½œå¼Šnæ¬¡ æ’¤é”€næ¬¡</p>
+                <button onclick="play.confirmDiff()">å†æ¥ä¸€å±€</button>
             </center>
         </div>
-        <button style="position:absolute;left:20px; bottom:20px;" onclick="play.onCheat()">×÷±×</button>
-        <button style="position:absolute;left:80px; bottom:20px;" onclick = "play.undo()">³·Ïú</button>
-        <button style="position:absolute;left:140px; bottom:20px;" onclick = "play.startNew()">ÖØÀ´</button>
-        <button style="position:absolute;left:200px; bottom:20px;" onclick = "draw.fullScreen()">È«ÆÁ</button>
+        <button style="position:absolute;left:20px; bottom:20px;" onclick="play.onCheat()">ä½œå¼Š</button>
+        <button style="position:absolute;left:80px; bottom:20px;" onclick = "play.undo()">æ’¤é”€</button>
+        <button style="position:absolute;left:140px; bottom:20px;" onclick = "play.startNew()">é‡æ¥</button>
+        <button style="position:absolute;left:200px; bottom:20px;" onclick = "draw.fullScreen()">å…¨å±</button>
     </div>
     </body>
 </html>
